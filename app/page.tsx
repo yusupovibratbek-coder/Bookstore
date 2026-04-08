@@ -34,7 +34,7 @@ export default function Home() {
       </div>
 
       {/* features */}
-      <div className="w-full h-112 ">
+      <div className="w-full h-112">
         <Card></Card>
       </div>
 

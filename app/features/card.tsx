@@ -1,6 +1,6 @@
 export default function Card() {
     return (
-        <div className="p-4 ">
+        <div className=" my-10 ">
             <div className="flex items-center my-4 border-2 rounded-2xl shadow-lg h-full w-full mb-4">
                 <div className="pl-20 ">
                     <h1 className="text-4xl font-bold font-mono p-4">Features</h1>
