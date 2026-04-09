@@ -1,5 +1,8 @@
 import { Button } from "@/components/ui/button";
 import Card from "./features/card";
+import Link from "next/link";
+
+
 
 export default function Home() {
   return (
@@ -39,13 +42,28 @@ export default function Home() {
       </div>
 
       {/* kards */}
-      <div className="w-full h-96 bg-green-300"></div>
-
+      <div className="w-full h-96">
+        <div>
+          <div>
+            <img className="w-70" src="https://nomadpress.net/wp-content/uploads/2017/09/WorldWarII_Cover.jpg" alt="" />
+          </div>
+          <div>
+            <div className="border-red-700 border-3 rounded-lg w-75">
+            <h1 className="pl-5 text-4xl font-bold font-mono text-black">World War II</h1>
+            <h1 className=" pl-5 font-bold text-1xl text-red-700">by Diane C.Taylor</h1>
+          </div>
+            <div>
+            
+          </div>
+          </div>
+        </div>
+      </div>
+        
       {/* qoshimcha */}
-      <div className="w-full h-96 bg-purple-300"></div>
+      
 
       {/* footer */}
-      <div className="w-full h-74 bg-gray-800"></div>
+      
     </div>
   )
 }
