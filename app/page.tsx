@@ -45,7 +45,7 @@ export default function Home() {
       {/* kards */}
       <div className="w-full h-96">
         <div>
-          <h1>wwef</h1>
+          <h1 className="text-4xl font-bold font-mono text-black p-10">Top Books</h1>
         </div>
         <div className="flex border-2  rounded-lg p-4 w-158 shadow-lg">
 
