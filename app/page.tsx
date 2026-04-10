@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Card from "./features/card";
 import Link from "next/link";
+import { DivideSignCircleFreeIcons } from "@hugeicons/core-free-icons";
 
 
 
@@ -10,7 +11,7 @@ export default function Home() {
       {/* navbar */}
       <div className="h-14 w-full flex items-center font-mono font-bold my-4 border-2 rounded-2xl justify-between  px-4 shadow-lg">
         <img className="h-14" src="https://i.pinimg.com/originals/e8/2e/c4/e82ec4007494891eac542ac464b9ec30.png" alt="" />
-        
+
         <div>
           <input className="border-1 rounded-4xl p-1 pl-3 " placeholder="Search books" type="text" />
         </div>
@@ -44,26 +45,35 @@ export default function Home() {
       {/* kards */}
       <div className="w-full h-96">
         <div>
+          <h1>wwef</h1>
+        </div>
+        <div className="flex border-2  rounded-lg p-4 w-158 shadow-lg">
+
           <div>
-            <img className="w-70" src="https://nomadpress.net/wp-content/uploads/2017/09/WorldWarII_Cover.jpg" alt="" />
+            <img className="w-65 rounded-lg" src="https://nomadpress.net/wp-content/uploads/2017/09/WorldWarII_Cover.jpg" alt="" />
           </div>
-          <div>
+
+          <div className="pl-5">
             <div className="border-red-700 border-3 rounded-lg w-75">
-            <h1 className="pl-5 text-4xl font-bold font-mono text-black">World War II</h1>
-            <h1 className=" pl-5 font-bold text-1xl text-red-700">by Diane C.Taylor</h1>
-          </div>
+              <h1 className="pl-5 text-4xl font-bold font-mono text-black">World War II</h1>
+              <h1 className=" pl-5 font-bold text-1xl text-red-700">by Diane C.Taylor</h1>
+            </div>
+            <div className="p-6 pl-14">
+              <Link className="text-3xl text-white bg-red-700 rounded-lg p-2 " href={'/worldwar2'}>Read Now...</Link>
+            </div>
             <div>
-            
+              <h1 className="w-80">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error ad, dignissimos ducimus beatae nihil quia possimus optio eveniet corporis, vero quas saepe consectetur eius voluptates. Repellat perspiciatis neque consequuntur. Corrupti.</h1>
+            </div>
           </div>
-          </div>
+
         </div>
       </div>
-        
+
       {/* qoshimcha */}
-      
+
 
       {/* footer */}
-      
+
     </div>
   )
 }
