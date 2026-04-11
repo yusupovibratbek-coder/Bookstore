@@ -88,6 +88,7 @@ export default function Home() {
             </div>
             <div>
               <h1 className="w-80">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error ad, dignissimos ducimus beatae nihil quia possimus optio eveniet corporis, vero quas saepe consectetur eius voluptates. Repellat perspiciatis neque consequuntur. Corrupti.</h1>
+              <h1>defrf</h1>
             </div>
           </div>
         </div>
