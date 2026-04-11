@@ -7,8 +7,14 @@ import { DivideSignCircleFreeIcons } from "@hugeicons/core-free-icons";
 
 export default function Home() {
   return (
+    
     <div className="bg-white h-full w-full px-48">
       {/* navbar */}
+        <div>
+          <Link className="underline text-1xl text-gray-500 " href={'/json'}>
+            View JSON Data
+          </Link>
+        </div>        
       <div className="h-14 w-full flex items-center font-mono font-bold my-4 border-2 rounded-2xl justify-between  px-4 shadow-lg">
         <img className="h-14" src="https://i.pinimg.com/originals/e8/2e/c4/e82ec4007494891eac542ac464b9ec30.png" alt="" />
 
@@ -88,9 +94,7 @@ export default function Home() {
       </div>
 
       {/* qoshimcha */}
-      <div>
-        <Link href={'/json'}>View JSON Data</Link>
-      </div>
+      
 
       {/* footer */}
 
