@@ -1,7 +1,7 @@
 export default function Home() {
     return (
         <div>
-            <h1 className="text-2xl font-mono font-bold texxt-black w-300 text-center pl-80 p-10">The Second World War by
+            <h1 className="text-2xl font-mono font-bold texxt-black w-300 text-center pl-80 p-30">The Second World War by
 A.J.P. Taylor PDF
 A.J.P. Taylor
 Scan to Download

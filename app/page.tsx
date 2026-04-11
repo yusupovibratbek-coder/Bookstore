@@ -43,62 +43,54 @@ export default function Home() {
       </div>
 
       {/* kards */}
-      <div className="w-full h-96">
+      <div className="w-full h-full">
         <div>
-          <h1 className="text-4xl font-bold font-mono text-black p-10">Top Books</h1>
+          <h1 className="text-5xl font-bold font-mono bg-gradient-to-br from-red-700 to-black bg-clip-text text-transparent p-10">Top free Books about WW2</h1>
         </div>
-        
-          <div>
-
-         <div className="flex border-2  rounded-lg p-4 w-158 shadow-lg">
-
-          <div>
-            <img className="w-65 rounded-lg" src="https://nomadpress.net/wp-content/uploads/2017/09/WorldWarII_Cover.jpg" alt="" />
+        <div>
+          <div className="flex border-2  rounded-lg p-4 w-158 shadow-lg">
+            <div>
+              <img className="w-65 rounded-lg" src="https://nomadpress.net/wp-content/uploads/2017/09/WorldWarII_Cover.jpg" alt="" />
+            </div>
+            <div className="pl-5">
+              <div className="border-red-700 border-3 rounded-lg w-75">
+                <h1 className="pl-5 text-4xl font-bold font-mono text-black">World War II</h1>
+                <h1 className=" pl-5 font-bold text-1xl text-red-700">by Diane C.Taylor</h1>
+              </div>
+              <div className="p-6 pl-14">
+                <Link className="text-3xl text-white bg-red-700 rounded-lg p-2 " href={'/worldwar2'}>Read Now...</Link>
+              </div>
+              <div>
+                <h1 className="w-80">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error ad, dignissimos ducimus beatae nihil quia possimus optio eveniet corporis, vero quas saepe consectetur eius voluptates. Repellat perspiciatis neque consequuntur. Corrupti.</h1>
+              </div>
+            </div>
           </div>
+        </div>
 
+
+        <div className="flex border-2  rounded-lg p-4 w-158 shadow-lg ">
+          <div>
+            <img className="w-65 rounded-lg" src="https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_568,c_scale,dpr_1.5/jackets/9781855329959.jpg" alt="" />
+          </div>
           <div className="pl-5">
             <div className="border-red-700 border-3 rounded-lg w-75">
-              <h1 className="pl-5 text-4xl font-bold font-mono text-black">World War II</h1>
-              <h1 className=" pl-5 font-bold text-1xl text-red-700">by Diane C.Taylor</h1>
+              <h1 className="pl-5 text-4xl font-bold font-mono text-black">US army WW2</h1>
+              <h1 className=" pl-5 font-bold text-1xl text-red-700">by Mark R Henry</h1>
             </div>
             <div className="p-6 pl-14">
-              <Link className="text-3xl text-white bg-red-700 rounded-lg p-2 " href={'/worldwar2'}>Read Now...</Link>
+              <Link className="text-3xl text-white bg-red-700 rounded-lg p-2 " href={'/usarmy'}>Read Now...</Link>
             </div>
             <div>
               <h1 className="w-80">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error ad, dignissimos ducimus beatae nihil quia possimus optio eveniet corporis, vero quas saepe consectetur eius voluptates. Repellat perspiciatis neque consequuntur. Corrupti.</h1>
             </div>
           </div>
-
         </div>
       </div>
 
-      
-        <div className="flex border-2  rounded-lg p-4 w-158 shadow-lg ">
-
-          <div>
-            <img className="w-65 rounded-lg" src="https://nomadpress.net/wp-content/uploads/2017/09/WorldWarII_Cover.jpg" alt="" />
-          </div>
-
-          <div className="pl-5">
-            <div className="border-red-700 border-3 rounded-lg w-75">
-              <h1 className="pl-5 text-4xl font-bold font-mono text-black">World War II</h1>
-              <h1 className=" pl-5 font-bold text-1xl text-red-700">by Diane C.Taylor</h1>
-            </div>
-            <div className="p-6 pl-14">
-              <Link className="text-3xl text-white bg-red-700 rounded-lg p-2 " href={'/worldwar2'}>Read Now...</Link>
-            </div>
-            <div>
-              <h1 className="w-80">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error ad, dignissimos ducimus beatae nihil quia possimus optio eveniet corporis, vero quas saepe consectetur eius voluptates. Repellat perspiciatis neque consequuntur. Corrupti.</h1>
-            </div>
-          </div>
-
-          </div>
-
-       </div>
-      
-
       {/* qoshimcha */}
-
+      <div>
+        <Link href={'/json'}>View JSON Data</Link>
+      </div>
 
       {/* footer */}
 
