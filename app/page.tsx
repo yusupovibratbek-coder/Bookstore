@@ -96,6 +96,7 @@ export default function Home() {
       {/* qoshimcha */}
       <div>
         <h1>ddw</h1>
+        <h1>deefe</h1>
       </div>
 
       {/* footer */}
