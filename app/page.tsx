@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import Card from "./features/card";
 import Link from "next/link";
 import { DivideSignCircleFreeIcons } from "@hugeicons/core-free-icons";
+import Lenta from "@/components/ui/lenta";
 
 
 
@@ -95,7 +96,12 @@ export default function Home() {
 
       {/* qoshimcha */}
       <div>
-       
+        <div>
+          <h1 className="text-5xl font-mono font-bold p-10 my-10 bg-gradient-to-br from-red-700 to-black bg-clip-text text-transparent">All Books of ADOLF HITLER</h1>
+        </div>
+        <div className="">
+          <Lenta/>
+        </div>
       </div>
 
       {/* footer */}
