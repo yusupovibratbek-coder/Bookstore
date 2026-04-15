@@ -102,6 +102,7 @@ export default function Home() {
         <div className="">
           <Lenta/>
           <h1>asd</h1>
+          <h1>qwe</h1>
         </div>
       </div>
 
