@@ -27,7 +27,7 @@ export default function Lenta() {
         }
       `}</style>
 
-      <div className=" overflow-hidden bg-red-500 py-8 border-y border-gray-100 rounded-4xl">
+      <div className=" overflow-hidden bg-gray-200 py-8 border-2 border-gray-100 rounded-4xl shadow-gray-200 shadow-lg">
         {/* Kontentni o'ng va chapdan xiralashtirish (Fade effect) */}
         <div className="absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-white to-transparent z-10"></div>
         <div className="absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-white to-transparent z-10"></div>
