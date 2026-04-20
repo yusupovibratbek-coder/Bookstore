@@ -1,6 +1,9 @@
+import Navbar from "@/components/ui/Navbar"
+
 export default function Home() {
     return (
         <div>
+            <Navbar/>
             <div>
                 <h1 className="text-2xl font-mono font-bold texxt-black w-300 text-center pl-80 p-30">World War II, spanning from 1939 to 1945, stands as one of the most impactful events in modern history, reshaping international politics, economies, societies, and the military landscape. Among the Allied powers, the United States emerged as a decisive force, both materially and militarily, following its entry into the conflict after the Japanese attack on Pearl Harbor on December 7, 1941. The U.S. Army, as the principal ground force of the American military, underwent unprecedented expansion, structural transformation, and operational engagement, shaping the eventual outcome of the war across multiple theaters.
 Pre-War Status and Mobilization

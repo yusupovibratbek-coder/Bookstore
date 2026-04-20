@@ -3,34 +3,16 @@ import Card from "./features/card";
 import Link from "next/link";
 import { DivideSignCircleFreeIcons } from "@hugeicons/core-free-icons";
 import Lenta from "@/components/ui/lenta";
+import Navbar from "@/components/ui/Navbar";
 
 
 
 export default function Home() {
   return (
-    
+
     <div className="bg-white h-full w-full px-48">
       {/* navbar */}
-        <div>
-          <Link className="underline text-1xl text-gray-500 " href={'/json'}>
-            View JSON Data
-          </Link>
-        </div>        
-      <div className="h-14 w-full flex items-center font-mono font-bold my-4 border-2 rounded-2xl justify-between  px-4 shadow-lg">
-        <img className="h-14" src="https://i.pinimg.com/originals/e8/2e/c4/e82ec4007494891eac542ac464b9ec30.png" alt="" />
-
-        <div>
-          <input className="border-1 rounded-4xl p-1 pl-3 " placeholder="Search books" type="text" />
-        </div>
-        <div className="flex text-black justify-around w-96 text-shadow-lg">
-          <h1>Main</h1>
-          <h1>Books</h1>
-          <h1>Popular</h1>
-          <h1>Rating</h1>
-          <h1>Contact</h1>
-        </div>
-        <Button>Log in</Button>
-      </div>
+      <Navbar />
 
       {/* hero */}
       <div className="w-full h-136  flex items-center justify-between border-2 rounded-2xl shadow-lg mb-4">
@@ -100,12 +82,63 @@ export default function Home() {
           <h1 className="text-5xl font-mono font-bold p-10 my-10 bg-gradient-to-br from-red-700 to-black bg-clip-text text-transparent">All Books of ADOLF HITLER</h1>
         </div>
         <div className="">
-          <Lenta/>
-          
+          <Lenta />
+
         </div>
       </div>
 
       {/* footer */}
+      <div className="bg-gray-200 my-50 rounded-lg border-gray-300 border-2">
+        <div className="text-center">
+          <h1 className="text-3xl font-mono font-bold my-5">Footer Content</h1>
+        </div>
+        <div className="flex justify-around p-5">
+          <div className="text-blue-500 text-1xl font-bold font-mono underline">
+            <h1>Support</h1>
+            <h1>Contact Us</h1>
+            <h1>Privacy Policy</h1>
+            <h1>Terms of Service</h1>
+            <h1>Follow Us</h1>
+            <h1>Facebook</h1>
+            <h1>Twitter</h1>
+            <h1>Instagram</h1>
+            <h1>telegram</h1>
+          </div>
+          <div className="text-blue-500 text-1xl font-bold font-mono underline">
+            <h1>Support</h1>
+            <h1>Contact Us</h1>
+            <h1>Privacy Policy</h1>
+            <h1>Terms of Service</h1>
+            <h1>Follow Us</h1>
+            <h1>Facebook</h1>
+            <h1>Twitter</h1>
+            <h1>Instagram</h1>
+            <h1>telegram</h1>
+          </div>
+          <div className="text-blue-500 text-1xl font-bold font-mono underline">
+            <h1>Support</h1>
+            <h1>Contact Us</h1>
+            <h1>Privacy Policy</h1>
+            <h1>Terms of Service</h1>
+            <h1>Follow Us</h1>
+            <h1>Facebook</h1>
+            <h1>Twitter</h1>
+            <h1>Instagram</h1>
+            <h1>telegram</h1>
+          </div>
+          <div className="text-blue-500 text-1xl font-bold font-mono underline">
+            <h1>Support</h1>
+            <h1>Contact Us</h1>
+            <h1>Privacy Policy</h1>
+            <h1>Terms of Service</h1>
+            <h1>Follow Us</h1>
+            <h1>Facebook</h1>
+            <h1>Twitter</h1>
+            <h1>Instagram</h1>
+            <h1>telegram</h1>
+          </div>
+        </div>
+      </div>
 
     </div>
   )

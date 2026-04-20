@@ -1,6 +1,9 @@
+import Navbar from "@/components/ui/Navbar";
+
 export default function Home() {
     return (
         <div>
+            <Navbar/>
             <h1 className="text-5xl font-bold font-mono bg-gradient-to-br from-red-700 to-gray-600 bg-clip-text text-transparent text-center p-10">World War II </h1>
             <h1 className="text-2xl font-mono font-bold texxt-black w-300 text-center pl-80 p-10">The Second World War by
 A.J.P. Taylor PDF
